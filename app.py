@@ -126,7 +126,7 @@ st.markdown(
 
 # --- Initialize Groq Client ---
 try:
-    groq_api_key = "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"
+    groq_api_key = "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"
     client = groq.Client(api_key=groq_api_key)
     model_available = True
 except Exception as e:
